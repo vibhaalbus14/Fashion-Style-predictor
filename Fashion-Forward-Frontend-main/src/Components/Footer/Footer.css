@@ -1,0 +1,120 @@
+/* Footer Base */
+.footer {
+    background-color: #333333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center; /* Ensure vertical centering */
+  }
+  
+  /* Logo Section */
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Align logo to the left */
+  }
+  
+  .logo-circle {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Ensure the image fits within the circle */
+    margin-right: 10px;
+  }
+  
+  .logo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills the circle */
+  }
+  
+  .company-name {
+    font-size: 1.2em;
+    font-family: "SF Pro Display", sans-serif;
+    color: #e0e0e0;
+  }
+  
+  /* Footer Column Styles */
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+    font-family: "SF Pro Display", sans-serif;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+    font-family: "Playfair Display", Sans-serif;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-social a {
+    display: inline-block;
+    margin: 0 8px;
+    transition: transform 0.3s;
+    color: #e0e0e0;
+  }
+  
+  .footer-social img {
+    width: 36px;
+    height: 36px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+  }
+  
+  .footer-social img:hover {
+    filter: grayscale(0%);
+  }
+  
+  .footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-column {
+      text-align: center;
+    }
+  }
+  

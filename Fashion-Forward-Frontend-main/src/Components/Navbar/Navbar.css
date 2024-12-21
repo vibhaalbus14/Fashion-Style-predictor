@@ -1,0 +1,102 @@
+.navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0px; /* Reduced height and added padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #7D0A0A;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+}
+
+.nav-logo {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-logo p {
+    color: #F3EDC8;
+    font-size: 32px; /* Reduced font size */
+    font-weight: 600;
+}
+
+.nav-logo img {
+    height: 6rem; /* Reduced logo size */
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 90px; /* Reduced gap */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li:hover {
+    color: #e8a815; /* Lighter color on hover */
+}
+
+.nav-menu hr {
+    border: none;
+    width: 70%; /* Slightly shorter underline */
+    height: 2px;
+    border-radius: 10px;
+    background: #EAD196;
+    margin-top: 3px;
+    transition: width 0.3s ease; /* Smooth expand animation */
+}
+
+.nav-menu li:hover hr {
+    width: 80%; /* Expands underline on hover */
+}
+
+.nav-login {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.nav-login button {
+    width: 140px; /* Keep width as needed */
+    height: 50px; /* Keep height as needed */
+    padding: 0; /* Remove extra padding */
+    margin: 0; /* Align with navbar */
+    outline: none;
+    border: 3px solid #F3EDC8;
+    border-radius: 30px;
+    color: #7D0A0A;
+    font-size: 18px; /* Slightly smaller font */
+    font-weight: 500;
+    background: #F3EDC8;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+
+.nav-login button:hover {
+    background: #e1d89a;
+    color: #7D0A0A;
+}
+
+.nav-login button:active {
+    background: #ce9f33;
+    color: #F3EDC8;
+}
+
+body {
+    padding-top: 100px; /* Add padding to prevent content from being hidden under the navbar */
+}

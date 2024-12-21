@@ -1,0 +1,17 @@
+/* IntroText.css */
+.intro-container {
+    text-align: center;
+    padding: 90px 60px;
+    background-color: #FCEFE8; /* Adjust to match background color */
+    color: #333;
+  }
+  
+  .intro-container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #333; /* Adjust as needed */
+    margin: 0;
+  }
+  

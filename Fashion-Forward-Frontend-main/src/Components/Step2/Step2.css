@@ -1,0 +1,71 @@
+/* Container styling */
+.step2-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FCEFE8; /* Light background color */
+    color: #333;
+    gap: 40px; /* Space between image and content */
+}
+
+/* Image section styling */
+.step2-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.step2-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Text content styling */
+.step2-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+
+.step2-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.step2-content p {
+    font-size: 18px;
+    color: #555;
+    margin: 15px 0px;
+}
+
+.step2-content ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.step2-content li {
+    margin-bottom: 8px;
+}
+
+/* Join Now button styling */
+.join-now-button {
+    padding: 12px 24px;
+    background-color: #ff5e5e; /* Button background color */
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.join-now-button:hover {
+    background-color: #ff4242;
+}

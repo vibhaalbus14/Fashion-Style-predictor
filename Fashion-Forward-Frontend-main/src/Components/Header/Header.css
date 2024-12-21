@@ -1,0 +1,48 @@
+
+.hero-content {
+    max-width: 1000px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content h2 {
+    font-size: 64px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+  }
+  
+  .hero-button {
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #ff1f1f;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Ensures hero-content and hero-image stay apart */
+    padding: 50px 20px 0; /* Adjust bottom padding to 0 to make image align with bottom */
+    background: #7D0A0A;
+    text-align: center;
+    min-height: 80vh; /* Ensure hero-section covers full viewport height */
+}

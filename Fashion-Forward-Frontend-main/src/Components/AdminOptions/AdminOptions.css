@@ -1,0 +1,66 @@
+/* Container styling for the page */
+.admin-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FCEFE8; /* Light background for contrast */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title styling */
+.admin-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Container for buttons */
+.admin-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px; /* Even spacing between buttons */
+  max-width: 800px;
+  width: 100%;
+}
+
+/* Button styling */
+.admin-button {
+  padding: 20px 50px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1 1 calc(50% - 40px); /* Responsive sizing */
+  max-width: 200px;
+  color: white;
+}
+
+/* Hover effect */
+.admin-button:hover {
+  transform: scale(1.1);
+}
+
+/* Button colors */
+.admin-button:nth-child(1) {
+  background-color: #7D0A0A; /* Green for Create */
+}
+
+.admin-button:nth-child(2) {
+  background-color: #7D0A0A; /* Blue for Read */
+}
+
+.admin-button:nth-child(3) {
+  background-color: #7D0A0A; /* Orange for Update */
+}
+
+.admin-button:nth-child(4) {
+  background-color: #7D0A0A; /* Red for Delete */
+}

@@ -1,0 +1,112 @@
+/* Container styling for the page */
+.create-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  max-width: 900px;
+  background-color: white; /* Light background for consistency with previous page */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: auto;
+}
+
+/* Title styling */
+.create-page-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+/* Form container */
+.create-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+/* Label styling */
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Input and textarea styling */
+.form-control {
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Focus effect for inputs */
+.form-control:focus {
+  border-color: #7D0A0A; /* Accent color */
+  outline: none;
+  box-shadow: 0 0 5px rgba(125, 10, 10, 0.2);
+}
+
+/* Error text */
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Submit button styling */
+.submit-button {
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #7D0A0A; /* Accent color for consistency */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%; /* Full width button */
+  max-width: 300px; /* Limit max width */
+  align-self: center; /* Center align in the form */
+}
+
+/* Hover effect for button */
+.submit-button:hover {
+  background-color: #9e1414;
+  transform: translateY(-3px); /* Lift effect */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .form-control {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
+
+  .create-page-container h1 {
+    font-size: 28px;
+  }
+}
+

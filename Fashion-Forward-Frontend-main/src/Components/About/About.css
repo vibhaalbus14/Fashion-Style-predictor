@@ -1,0 +1,58 @@
+/* General Section Styling */
+.about {
+    padding: 50px 20px;
+    background-color: #FCEFE8;
+    color: #333; /* Dark text color for readability */
+}
+
+.about-container {
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center the text */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Card Styling - General */
+.about-cards {
+    display: flex; /* Flexbox for side-by-side cards */
+    justify-content: center; /* Center the cards horizontally */
+    gap: 40px; /* Increased space between cards */
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+}
+
+/* General Card Styling for Both Cards */
+.card {
+    background-color: #7D0A0A; /* Light background */
+    color: #fff; /* Dark text color */
+    border-radius: 15px; /* Rounded corners for a more elegant look */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow for depth */
+    padding: 30px; /* Increased padding for a more spacious look */
+    flex: 1 1 450px; /* Wider card */
+    max-width: 700px; /* Maximum width for both cards */
+    min-height: 450px; /* Increased card height */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transform and shadow effect */
+}
+
+/* Heading Styling */
+.card h3 {
+    font-size: 2rem; /* Larger heading for prominence */
+    color: #fff; /* Dark color for text */
+    margin-bottom: 20px; /* More space below heading */
+}
+
+/* Paragraph Styling */
+.card p {
+    font-size: 1.1rem; /* Slightly larger text for better readability */
+    line-height: 1.6; /* Increased line height for better spacing */
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+    transform: translateY(-10px); /* Raise card more on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis */
+}
